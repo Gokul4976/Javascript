@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+   
+    <div>
+        <form id="myform">
+            <div class="formdetails">
+                <h2>Add New Book</h2>
+                <div class="category">
+                    <label>Category</label>
+                    <select name="category" id="category">
+                        <option value="IT">IT</option>
+                        <option value="CSE">CSE</option>
+                        <option value="EEE">EEE</option>
+                        <option value="ECE">ECE</option>
+                    </select>
+                    <span class="error" style="color: red;" id="categoryError"></span>
+                </div>
+
+                <div class="bookname">
+                    <label for="">Book Name</label>
+                    <input type="text" id="bookname">
+                    <span class="error" style="color: red;" id="booknameError"></span>
+
+                </div>
+                <div class="authorname">
+                    <label for="">Author Name</label>
+                    <input type="text" id="authorname">
+                    <span class="error" style="color: red;" id="authornameError"></span>
+
+                </div>
+                <div class="authoremail">
+                    <label for="">Author Email</label>
+                    <input type="text" id="authoremail">
+                    <span class="error" style="color: red;" id="authoremailError"></span>
+
+                </div>
+                <div class="publishyear">
+                    <label for="">Publish Year</label>
+                    <input type="text" id="publishyear">
+                    <span class="error" style="color: red;" id="publishyearError"></span>
+
+                </div>
+                <div class="price">
+                    <label for="">Price</label>
+                    <input type="text" id="price">
+                    <span class="error" style="color: red;" id="priceError"></span>
+
+                </div>
+
+                <!-- <div class="upload">
+                    <p>Upload profile </p>
+                    <p>Please upload photo of yourself. your face should be clear .Make sure image size does not exceed
+                        500kb</p>
+                    <input type="file" value="Upload photo" id="photo" placeholder="upload photo">
+                    <span class="error" style="color: red;" id="uploadError"></span>
+    
+                </div> -->
+                <div class="submit">
+                    <button type="submit">Submit</button>
+                    <!-- <button type="reset">reset</button> -->
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+.details{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+.category{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 300px;
+}
+.bookname{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 300px;
+}
+.authorname{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 300px;
+}
+.authoremail{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 300px;
+}
+.year{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 300px;
+}
+.price{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 300px;
+}
